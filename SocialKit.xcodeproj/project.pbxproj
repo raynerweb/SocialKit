@@ -16,6 +16,8 @@
 		95A02EF7262CE82A0088AD86 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A02EF6262CE82A0088AD86 /* UserTableViewController.swift */; };
 		95A02EFA262D005A0088AD86 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A02EF9262D005A0088AD86 /* UserTableViewCell.swift */; };
 		95A02EFE262DA8AC0088AD86 /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A02EFD262DA8AC0088AD86 /* PostTableViewController.swift */; };
+		95A02F01262DB1960088AD86 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A02F00262DB1960088AD86 /* PostTableViewCell.swift */; };
+		95A02F04262DB2FF0088AD86 /* PostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A02F03262DB2FF0088AD86 /* PostUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		95A02EF6262CE82A0088AD86 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		95A02EF9262D005A0088AD86 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		95A02EFD262DA8AC0088AD86 /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		95A02F00262DB1960088AD86 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		95A02F03262DB2FF0088AD86 /* PostUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostUser.swift; path = ../../../Social/Social/Model/PostUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				95A02EF6262CE82A0088AD86 /* UserTableViewController.swift */,
 				95A02EF9262D005A0088AD86 /* UserTableViewCell.swift */,
 				95A02EFD262DA8AC0088AD86 /* PostTableViewController.swift */,
+				95A02F00262DB1960088AD86 /* PostTableViewCell.swift */,
 			);
 			path = SocialKit;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 		95A02EF1262CE0840088AD86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95A02F03262DB2FF0088AD86 /* PostUser.swift */,
 				95A02EF2262CE0B90088AD86 /* User.swift */,
 			);
 			path = Model;
@@ -154,11 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A02F01262DB1960088AD86 /* PostTableViewCell.swift in Sources */,
 				95A02EF3262CE0B90088AD86 /* User.swift in Sources */,
 				95A02EFE262DA8AC0088AD86 /* PostTableViewController.swift in Sources */,
 				95A02EDD262CDEEB0088AD86 /* AppDelegate.swift in Sources */,
 				95A02EF7262CE82A0088AD86 /* UserTableViewController.swift in Sources */,
 				95A02EDF262CDEEB0088AD86 /* SceneDelegate.swift in Sources */,
+				95A02F04262DB2FF0088AD86 /* PostUser.swift in Sources */,
 				95A02EFA262D005A0088AD86 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

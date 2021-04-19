@@ -92,6 +92,7 @@ class UserTableViewController: UITableViewController {
                 
                 if let destination = segue.destination as? PostTableViewController {
                     destination.title = user.name
+                    destination.user = user
                 }
                 
             }
